@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/history"
+        android:title="историяСлов"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/favorites"
+        android:title="ИзбранныеСлова"
+        app:showAsAction="always"
+        android:visible="true"
+        />
+
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@drawable/delete"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+
+
+
+</menu>
